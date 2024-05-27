@@ -1,0 +1,1098 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            overflow-x: hidden;
+        }
+        
+        .index {
+            width: 100%;
+            height: 4000px;
+        }
+        
+        .indexOne {
+            height: 720px;
+            width: 100%;
+            background-color: #184157;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .indexOneContentHeader {
+            width: 1170px;
+            height: 71px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .hero-indexheader {
+            width: 100%;
+            background-color: rgb(73, 105, 122);
+            display: flex;
+            justify-content: center;
+        }
+        
+        .hero-index {
+            width: 100%;
+            background-image: url(https://weatherstack.com/site_images/mountains.svg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .indexOneContent {
+            width: 1170px;
+            height: 550px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            width: 202px;
+            height: 28px;
+        }
+        
+        .indexOneHeaderLeft {
+            display: inline-flex;
+        }
+        
+        .indexOneHeaderRightList li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .indexOneHeaderRightList li {
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 71px;
+        }
+        
+        .indexOneHeaderRightList ul li:first-child {
+            text-align: left;
+            width: 72.5px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRightList ul li :nth-child(2) {
+            width: 124px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRightList ul li :nth-child(3) {
+            width: 56.05px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRightList ul li :nth-child(4) {
+            width: 57px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRightList ul li :nth-child(5) {
+            width: 78.36px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRightList ul li :nth-child(6) {
+            width: 72.38px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRightList ul li :last-child {
+            width: 120.78px;
+            height: 100%;
+        }
+        
+        .indexOneHeaderRight li a.Status::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            background-color: #009e4d;
+            border-radius: 50%;
+            position: relative;
+            left: -6px;
+        }
+        
+        .logIn {
+            display: inline-block;
+            width: 57.38px;
+            height: 35px;
+            background-color: rgba(255, 255, 255, .15);
+            line-height: 35px;
+            border-radius: 2px;
+        }
+        
+        .signUp {
+            display: inline-block;
+            width: 105.78px;
+            height: 35px;
+            background-color: #f47b21;
+            line-height: 35px;
+            border-radius: 2px;
+        }
+        
+        .indexOneHeaderRight ul {
+            display: flex;
+            width: 581px;
+            justify-content: space-between;
+            list-style: none;
+        }
+        
+        .fa-trophy {
+            color: #fff;
+            width: 50px;
+            height: 50px;
+        }
+        
+        h2 {
+            font-weight: 700;
+            font-size: 32px;
+            color: #ffffff;
+        }
+        
+        h2.hTop {
+            margin-top: 17px;
+        }
+        
+        h4 {
+            font-size: 18px;
+            color: #ffffff;
+        }
+        
+        h4.hTop {
+            margin-top: 40px;
+        }
+        
+        .Trusted {
+            font-size: 22px;
+            font-weight: 300;
+            color: #fff;
+            margin-top: 40px;
+            background-color: rgba(255, 255, 255, .1);
+            height: 44px;
+            width: 417px;
+            border-style: none;
+            border-radius: 2rem;
+            line-height: 44px;
+            text-align: center;
+        }
+        /* span */
+        
+        .Trusteds {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-top: 40px;
+            /* background-color: rgba(255, 255, 255, .1); */
+            height: 44px;
+            width: 400px;
+            border-style: none;
+            border-radius: 2rem;
+            line-height: 44px;
+            text-align: center;
+            padding: 6px 0px 13px 0px;
+        }
+        /* cup */
+        
+        .fa-trophy {
+            margin-left: -40px;
+            margin-right: -5px;
+        }
+        
+        .Start {
+            width: 250px;
+            height: 60px;
+            background-color: #f47b21;
+            display: inline-block;
+            text-align: center;
+            line-height: 60px;
+            font-size: 14px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .Start:hover a {
+            text-decoration: underline;
+        }
+        
+        .Start a {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .startAPI {
+            text-decoration: none;
+        }
+        
+        .free {
+            font-size: 19px;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* weather part and dates */
+        
+        .weatherIcon {
+            height: 330px;
+            width: 508px;
+            border: 4px solid #608094;
+            background-color: #16394c;
+            border-radius: 10px;
+            outline: rgb(3, 108, 219) solid 1px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .moon {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 40px;
+            width: 100%;
+            height: 110px;
+            margin-left: -16px;
+        }
+        
+        .Phoenix {
+            width: 299px;
+            height: 19px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            line-height: 19px;
+            padding: 25px 40px 7px 117px;
+        }
+        
+        .weatherData {
+            margin-top: 16px;
+        }
+        
+        .moonClear {
+            width: 140px;
+            height: 140px;
+            font-size: 14px;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .moonClear img {
+            width: 100px;
+            height: 84px;
+        }
+        
+        .tempurature {
+            width: 65.63px;
+            height: 44.7px;
+            font-size: 32px;
+            font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+            color: #ffffff;
+        }
+        
+        .Wind {
+            width: 115px;
+            height: 65px;
+            color: #ffffff;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        .Wind span {
+            display: block;
+            margin-top: 4px;
+            text-align: left;
+        }
+        
+        .days {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .days li {
+            width: 95px;
+            height: 107px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        
+        h6 {
+            font-size: 12px;
+        }
+        /* indexTwoCustomers */
+        
+        .indexTwoCustomers {
+            width: 100%;
+            height: 136px;
+            background-color: #eff2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .indexTwoCustomers ul.happy {
+            width: 1170px;
+            height: 84px;
+            line-height: 84px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .indexTwoCustomers ul li {
+            display: inline-block;
+            line-height: 50px;
+            list-style: none;
+        }
+        
+        .indexTwoCustomers ul li:first-child {
+            font-weight: 800;
+            font-size: 15px;
+            background: 0 0;
+            width: 185px;
+            height: 50px;
+            color: #000000;
+        }
+        
+        .indexTwoCustomers ul li:nth-child(2) {
+            width: 187px;
+            height: 50px;
+            background-image: url(https://weatherstack.com/site_images/client_deloitte.svg);
+            background-size: 125px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .indexTwoCustomers ul li:nth-child(3) {
+            width: 187px;
+            height: 50px;
+            background-image: url(https://weatherstack.com/site_images/client_microsoft.svg);
+            background-size: 164px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .indexTwoCustomers ul li:nth-child(4) {
+            width: 110px;
+            height: 50px;
+            background-image: url(https://weatherstack.com/site_images/client_warnerbros.svg);
+            background-size: 48px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .indexTwoCustomers ul li:nth-child(5) {
+            width: 132px;
+            height: 50px;
+            background-image: url(https://weatherstack.com/site_images/client_wawa.svg);
+            background-size: 85px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .indexTwoCustomers ul li:nth-child(6) {
+            width: 187px;
+            height: 50px;
+            background-image: url(https://weatherstack.com/site_images/client_schneider.svg);
+            background-size: 125px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .indexTwoCustomers ul li:nth-child(7) {
+            width: 112px;
+            height: 50px;
+            background-image: url(https://weatherstack.com/site_images/client_ericsson_2.svg);
+            /* background-size: 125px; */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        /* session-3 */
+        
+        .show {
+            width: 1170px;
+            height: 327px;
+        }
+        
+        .container .boxes {
+            display: inline-flex;
+        }
+        
+        .box {
+            display: inline-block;
+            width: 1140px;
+            height: 247px;
+            background-color: #ebeff4;
+            /* padding: 10px; */
+        }
+        
+        h5 {
+            width: 230px;
+            height: 60px;
+        }
+        /* session 3 */
+        
+        .show {
+            width: 100%;
+            height: 247px;
+            background-color: #fff;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .show ul {
+            width: 1140px;
+            height: 210px;
+            padding-top: 18px;
+            padding-bottom: 19px;
+            background-color: #eff2f5;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .show ul li {
+            width: 230px;
+            height: 190px;
+            padding: 10px;
+            margin: 0 12px;
+            border-radius: 5px;
+            background-color: #ebeff4;
+        }
+        
+        .show h5 {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            text-align: left;
+            margin-top: 10px;
+            width: 230px;
+            line-height: 60px;
+        }
+        
+        .show p {
+            font-size: 14px;
+            line-height: 20px;
+            /* margin: 0 0 10px; */
+        }
+        
+        #fa-cloudflare {
+            display: block;
+            margin-top: 25px;
+        }
+        /* session 4 */
+        
+        .mainFeature {
+            width: 100%;
+            height: 347px;
+            padding-top: 25px;
+            padding-bottom: 65px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .mainFeature .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1140px;
+            height: 347px;
+            padding-right: 15px;
+            padding-left: 15px;
+            /* max-width: 1170px; ?????????????*/
+        }
+        
+        .container .details {
+            width: 440px;
+            height: 333px;
+        }
+        
+        .details h4 {
+            font-size: 25px;
+            width: 440px;
+            height: 63px;
+            color: #000000;
+            /* line-height: normal; */
+            margin-bottom: 0;
+            font-family: Promo, Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            margin-bottom: 15px;
+            margin-top: -7px;
+        }
+        
+        .details p {
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin-bottom: 15px;
+            width: 440px;
+            height: 40px;
+        }
+        
+        .mainFeature .container .details ul li {
+            width: 440px;
+            height: 35px;
+            margin-bottom: 5px;
+            font-size: 15px;
+            list-style: none;
+            display: block;
+            font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+        }
+        
+        .details ul li #fa-cloudflare {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .weatherMap {
+            width: 635px;
+            height: 347px;
+        }
+        /* session 5 */
+        
+        .methods {
+            background-image: url(https://weatherstack.com/site_images/bg_waves_4.svg);
+            background-color: #184157;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: cover;
+            padding: 40px 0 40px 0;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .methods .container {
+            width: 100%;
+            height: 1355.090px;
+            padding: 0 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .methods .container h4 {
+            font-size: 25px;
+            font-family: Promo, Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            margin-bottom: 15px;
+            width: 1140px;
+            height: 100.5px;
+            color: #ffffff;
+        }
+        
+        .methods .container h4::before {
+            content: "EXAMPLE";
+            background-color: #416376;
+            font-size: 14px;
+            border-radius: 99px;
+            width: 100px;
+            height: 18px;
+            display: block;
+            margin: -5px 520px 30px 520px;
+            line-height: 18px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 11px;
+        }
+        
+        .methods .container h5 {
+            width: 600px;
+            height: 55px;
+            margin: 0 270px;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        
+        .methods .container ul {
+            width: 1140px;
+            height: 55.59px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            color: #fff;
+            margin-top: 40px;
+        }
+        
+        .methods .container ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            display: inline-block;
+            width: 203px;
+            height: 19.59px;
+            line-height: 19.59px;
+            padding: 16px 10px 18px 10px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, .1);
+            font-weight: 600;
+        }
+        
+        .methods .container ul li:hover a {
+            text-decoration: underline;
+        }
+        
+        .methods ul li:nth-child(1) a {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            background-color: #f47b21;
+            color: #ffffff;
+        }
+        
+        .methods ul li:nth-child(2) a {
+            border-left: none;
+            border-right: none;
+            background-color: #ffffff;
+            color: #283f59;
+        }
+        
+        .methods ul li:nth-child(3) a {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: #ffffff;
+            color: #283f59;
+        }
+        /* result code */
+        
+        .result {
+            display: block;
+            background: #17242b;
+            width: 673px;
+            height: 732px;
+            margin: 0 auto;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 12px;
+            overflow: auto;
+            text-align: left;
+            /* padding: 2px, 2px, 2px, 12px; */
+        }
+        
+        .result {
+            /* display: inline-block; */
+            /* padding-top: 2px; */
+            line-height: 18px;
+        }
+        
+        pre span.str {
+            color: #ffce54;
+        }
+        
+        pre span.lit {
+            color: #A0D468;
+        }
+        /* ul 部分 */
+        
+        .methods .container .moreFeatures ul li .heading ::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 5px;
+        }
+        
+        .data {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .lightning {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .infrastructure {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .lookup {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .secure {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .API {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .methods .container .moreFeatures ul li span {
+            position: relative;
+            top: -25px;
+            left: 45px;
+        }
+        
+        .methods .container .moreFeatures {
+            width: 1140px;
+            height: 294px;
+            text-align: left;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+        }
+        
+        .methods .container .moreFeatures ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 15px;
+        }
+        
+        .methods .container .moreFeatures ul li {
+            width: 370px;
+            height: 103px;
+            padding: 14px 20px 15px 20px;
+            margin-bottom: 15px;
+            background: rgba(255, 255, 255, .1);
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 17px;
+        }
+        
+        .methods .container .moreFeatures ul li span.heading {
+            width: 330px;
+            height: 28px;
+            margin-bottom: 5px;
+            font-weight: 600;
+            font-size: 15px;
+            display: inline-block;
+        }
+        
+        .methods .container .moreFeatures ul li p {
+            width: 330px;
+            height: 60px;
+            font-size: 13.5px;
+            margin-top: -16px;
+            text-align: left;
+        }
+        /* session 6 */
+        
+        .grid {
+            background-color: blue;
+            background: #ffffff;
+            padding: 45px 0 50px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .grid .container {
+            width: 1170px;
+        }
+        
+        .grid h4 {
+            font-size: 25px;
+            /* line-height: normal; */
+            /* margin-bottom: 0; */
+            /* margin-top: 0; */
+            font-size: 25px;
+            font-weight: 300;
+            font-family: Promo, Helvetica, Arial, sans-serif;
+            width: 1140px;
+            height: 31.5px;
+            color: #000000;
+        }
+        
+        .grid h5 {
+            font-size: 20px;
+            /* line-height: normal; */
+            /* max-width: 600px; */
+            text-align: center;
+            margin: 20px auto 0;
+            width: 600px;
+            height: 55px;
+        }
+        
+        .grid ul li {
+            display: inline-block;
+            width: 250px;
+            height: 100px;
+            background: gray;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .grid .container ul li.daimler {
+            background-color: #263e6a;
+            background-image: url(https://weatherstack.com/site_images/client_white_daimler.svg);
+            background-size: 175px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .grid ul li.deloitte {
+            background: #eef2f5;
+            background-image: url(https://weatherstack.com/site_images/client_deloitte.svg);
+            background-size: 150px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .grid ul li.ericsson {
+            background: #01275b;
+            background-image: url(https://weatherstack.com/site_images/client_white_ericsson_2.svg);
+            background-size: 65px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 135px;
+        }
+        
+        .grid ul li.microsoft {
+            background: #eef2f5;
+            background-image: url(https://weatherstack.com/site_images/client_microsoft.svg);
+            background-size: 175px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .grid ul li.schneider {
+            background: #009e4d;
+            background-image: url(https://weatherstack.com/site_images/client_white_schneider.svg);
+            background-size: 150px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 200px;
+            margin-right: 0;
+        }
+        
+        .grid ul li.warnerbros {
+            background: #027ac2;
+            background-image: url(https://weatherstack.com/site_images/client_white_warnerbros.svg);
+            background-size: 65px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 190px;
+        }
+        
+        .grid ul li.wawa {
+            background: #ee2e25;
+            background-image: url(https://weatherstack.com/site_images/client_white_wawa.svg);
+            background-size: 110px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .grid ul li.canda {
+            background: #eef2f5;
+            background-image: url(https://weatherstack.com/site_images/client_canda.svg);
+            background-size: 90px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 135px;
+        }
+        
+        .grid ul li.mckinsey {
+            background: #23477f;
+            background-image: url(https://weatherstack.com/site_images/client_mckinsey.svg);
+            background-size: 250px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-x: 10px;
+            width: 260px;
+        }
+        
+        .grid ul li.rimowa {
+            background: #eef2f5;
+            background-image: url(https://weatherstack.com/site_images/client_rimowa.svg);
+            background-size: 155px;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-right: 0;
+        }
+        
+        .grid ul {
+            margin-top: 45px;
+            text-align: center;
+        }
+        /* signFree */
+        
+        .signFree {
+            width: 100%;
+            background: #eef2f5;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .signFree .container {
+            display: flex;
+            justify-content: center;
+            width: 1332px;
+            height: 21.5;
+            font-family: Promo, Helvetica, Arial, sans-serif;
+            text-align: center;
+            padding: 45px 30px 50px 30px;
+        }
+        
+        .signFree p {
+            font-size: 17px;
+            margin-bottom: 0;
+            font-weight: 300;
+            text-align: center;
+        }
+        
+        .signFree p a {
+            background-color: #f47b21;
+            padding: 17px 15px;
+            text-decoration: none;
+            color: #fff;
+            margin-left: 20px;
+        }
+        
+        .signFree p:hover a {
+            text-decoration: underline;
+        }
+        /* footer  */
+        
+        .footer {
+            width: 100%;
+            height: 281.39px;
+            background-color: rgb(24, 65, 87);
+            padding: 50px 0;
+            text-align: center;
+            background: #184157;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 400;
+            display: flex;
+            flex-direction: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        /* footer .customer-container */
+        
+        .footer .customer-container .leftside .footer-logo img {
+            display: inline-block;
+            width: 197px;
+            height: 35px;
+        }
+        
+        .footer .customer-container .leftside {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        
+        .footer .customer-container {
+            display: flex;
+            width: 1140px;
+            height: 160px;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            padding: 5px;
+        }
+        
+        .leftside {
+            width: 27%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 307.797px;
+            height: 160px;
+        }
+        
+        .footer .customer-container ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .footer .customer-container ul li.heading {
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 10px;
+            font-family: Promo, Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        
+        .footer .customer-container ul li {
+            width: 196px;
+            height: 30px;
+            list-style: none;
+            line-height: 30px;
+        }
+        
+        .footer .customer-container ul li:hover a {
+            text-decoration: underline;
+        }
+        
+        .footer .customer-container ul {
+            width: 196px;
+            height: 160px;
+        }
+        /* footer-container */
+        
+        .footer .footer-container {
+            width: 1140px;
+            height: 121.391px;
+            padding: 0 15px;
+            display: flex;
+            flex-direction: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .copyright-link {
+            margin-top: 70px;
+            margin-bottom: 15px;
+            width: 1140px;
+            height: 19px;
+        }
+        
+        .copyright-link a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+        }
+        
+        .copyright-text span a {
+            color: #fff;
+            font-weight: 400;
+        }
+        
+        .copyright-link:hover a {
+            text-decoration: underline;
+        }
