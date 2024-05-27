@@ -1,0 +1,562 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.indexOne {
+    height: 430px;
+    width: 100%;
+    background-color: #184157;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-indexheader {
+    background-color: rgb(66, 101, 119);
+}
+
+
+/* Fair Pricing */
+
+.fairPricing {
+    width: 100%;
+    height: 119.195px;
+    padding-top: 8px;
+    padding-bottom: 210px;
+    background: url(https://weatherstack.com/site_images/mountains.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.fairPricing .container {
+    width: 1140px;
+    height: 119.195px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fairPricing .container h2 {
+    font-weight: 500;
+    font-size: 32px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.fairPricing .container .cycle {
+    margin-top: 25px;
+}
+
+.fairPricing .container .cycle a {
+    display: inline-block;
+    padding: 10px 10px 11px 30px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.fairPricing .container .cycle a.monthly {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #15394c;
+    color: #fff;
+}
+
+.fairPricing .container .cycle a.yearly {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #fff;
+    color: #283f59;
+    position: relative;
+}
+
+.fairPricing .container .cycle a.yearly::after {
+    display: inline-block;
+    background-color: #8a9bae;
+    content: "up to 20% Discount";
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing .container ul.subscriptions {
+    width: 1140px;
+    height: 877.602px;
+    /* background-color: #009e4d; */
+    margin: -82px 0 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing .container .subscriptions .foo {
+    display: inline-block;
+    width: 211px;
+    height: 842.602px;
+    margin-top: -30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    list-style: none;
+    /* background-color: #027ac2; */
+}
+
+.main_container {
+    width: 211px;
+    height: 313.594px;
+    padding-bottom: 10px;
+    background: #ebeff4;
+    text-align: center;
+}
+.firstContainer,.secondContainer,.fourthContainer,.fifthContainer{
+   border-radius: 5px;
+}
+.pricing .container ul.subscriptions li.highlighted .main_container {
+    box-shadow: 0 1rem 3rem 0 rgba(177, 177, 177, .4);
+    background: #fff;
+    position: relative;
+}
+
+
+/* most popular */
+
+.pricing .container ul.subscriptions li.highlighted .mc_header::before {
+    display: inline-block;
+    content: "most popular";
+    width: 211px;
+    height: 30px;
+    background-color: #15394c;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 7px auto;
+    top: -30px;
+    left: 0;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.pricing .container ul.subscriptions li.highlighted a {
+    background: #15394c;
+    color: #fff;
+}
+
+.main_container .mc_header {
+    width: 211px;
+    height: 35px;
+    /* background-color: green; */
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.main_container .mc_header .heading {
+    font-size: 18px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.priceIcon {
+    width: 30px;
+    height: 42px;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+
+/* 不需要用这个：： */
+
+.main_container .mc_header heading::before {
+    /* content: ""; */
+    /* display: inline-block; */
+    /* background: red; */
+    /* width: 50px; */
+    /* height: 52px; */
+    /* background-image: url(https://fontawesome.com/icons/cloud?f=classic&s=solid); */
+    /* background-image: url(https://fontawesome.com/icons/cloud?f=classic&s=solid); */
+}
+
+.foo .main_container .short_description {
+    width: 181px;
+    height: 70px;
+    padding: 20px 15px;
+    font-size: 12px;
+}
+
+.monthly_data {
+    width: 219px;
+    height: 49px;
+    /* background-color: #01275b; */
+}
+
+.monthly_data .monthlyPrice {
+    font-size: 20px;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-weight: 600;
+    /* margin-right: 2px; */
+}
+
+.monthly_data span.align-top {
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.monthly_data span.perMonth {
+    font-size: 12px;
+}
+
+.monthly_data span.yearly_price {
+    display: block;
+    color: rgba(0, 0, 0, .4);
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.main_container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #dde1e7;
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    color: #848484;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.pricing .container ul.subscriptions li.enterprise {
+    background-color: #15394c;
+    width: 230px;
+    height: 847.594px;
+    border-radius: 5px;
+}
+
+.pricing .container ul.subscriptions li.enterprise .main_container {
+    width: 230px;
+    height: 313.594px;
+    background: #15394c;
+    width: 230px;
+    color: #fff;
+}
+
+.pricing .container ul.subscriptions li.enterprise .main_container .yearly_price {
+    color: #fff;
+}
+
+.main_container a.contactUs {
+    background-color: #f47b21;
+    color: #fff;
+    /* width: 78%; */
+}
+
+.main_container:hover a {
+    text-decoration: underline;
+}
+
+
+/* features_container  */
+
+.features_container {
+    width: 217px;
+    height: 494px;
+}
+
+.pricing .container ul.subscriptions li.enterprise .features_container {
+    width: 230px;
+    height: 499px;
+    color: #fff;
+}
+
+.features_container ul li {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 13px;
+    padding-left: 18px;
+    border-bottom: 0;
+    list-style: none;
+}
+
+
+/* border-right */
+
+.features_container {
+    border-right: 1px solid #dde1e7;
+}
+
+.business {
+    border-right: none;
+}
+
+
+/* icon 布局 */
+
+.pricing .container ul.subscriptions .features_container ul {
+    padding-top: 30px;
+}
+
+.pricing .container ul.subscriptions li.features_container ul li {
+    padding-bottom: 13px;
+    padding-left: 18px;
+}
+
+.features_container ul li span {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+/* ?????????? */
+
+.features_container ul li::before {
+    content: "";
+    display: inline-block;
+    /* width: 40px; */
+    /* height: 40px; */
+    /* background-color: #009e4d; */
+    /* background-image: url(https://fontawesome.com/icons/city?f=classic&s=solid); */
+}
+
+
+/* Trusted by theBest */
+
+.indexTwoCustomers {
+    width: 100%;
+    height: 136px;
+    /* background-color: #eff2f5; */
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.indexTwoCustomers ul.theBest {
+    width: 1170px;
+    height: 84px;
+    line-height: 84px;
+    display: flex;
+    justify-content: center;
+}
+
+.indexTwoCustomers ul li {
+    display: inline-block;
+    line-height: 50px;
+    list-style: none;
+}
+
+.indexTwoCustomers ul li:first-child {
+    font-weight: 800;
+    font-size: 15px;
+    background: 0 0;
+    width: 185px;
+    height: 50px;
+    color: #000000;
+}
+
+.indexTwoCustomers ul li:nth-child(2) {
+    width: 187px;
+    height: 50px;
+    background-image: url(https://weatherstack.com/site_images/client_deloitte.svg);
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indexTwoCustomers ul li:nth-child(3) {
+    width: 187px;
+    height: 50px;
+    background-image: url(https://weatherstack.com/site_images/client_microsoft.svg);
+    background-size: 164px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indexTwoCustomers ul li:nth-child(4) {
+    width: 110px;
+    height: 50px;
+    background-image: url(https://weatherstack.com/site_images/client_warnerbros.svg);
+    background-size: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indexTwoCustomers ul li:nth-child(5) {
+    width: 132px;
+    height: 50px;
+    background-image: url(https://weatherstack.com/site_images/client_wawa.svg);
+    background-size: 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indexTwoCustomers ul li:nth-child(6) {
+    width: 187px;
+    height: 50px;
+    background-image: url(https://weatherstack.com/site_images/client_schneider.svg);
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indexTwoCustomers ul li:nth-child(7) {
+    width: 112px;
+    height: 50px;
+    background-image: url(https://weatherstack.com/site_images/client_ericsson_2.svg);
+    /* background-size: 125px; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* offer the industry standard for weather data */
+
+.features_roundup {
+    background: url(https://weatherstack.com/site_images/world_map_vector_objects.svg);
+    background-color: #eff2f5;
+    background-repeat: no-repeat;
+    background-size: 950px;
+    background-position: center;
+    background-position-y: 95px;
+    /* width: 100%; */
+    padding: 50px 0 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.features_roundup .container {
+    width: 1140px;
+    height: 1382.69px;
+}
+
+.features_roundup .container .row {
+    display: block;
+    position: relative;
+    padding: 20px 0 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 125px;
+    padding-bottom: 43px;
+}
+
+
+/* 不能用：：before ？？？？ */
+
+
+/* .features_roundup .container .row.realtime_weather span.heading::before {
+    content: '';
+    display: block;
+    font-size: 300px;
+    font-weight: 400;
+    background: url();
+} */
+
+.features_icon {
+    /* display: block; */
+    width: 50px;
+    height: 50px;
+    /* 不能改颜色？？？？？ */
+    /* color: #a4b6c5;  */
+    position: absolute;
+    /* top: 45px; */
+    left: 10px;
+}
+
+.astronomydata_icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+}
+
+.features_roundup .container .row span.heading {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.features_roundup .container .row:first-of-type {
+    padding-top: 50px;
+    border-top: 2px dotted #dde2e6;
+}
+
+.features_roundup .container .row .included_in {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin: 20px 0;
+    height: 84px;
+    border-left: 2px dashed #dde2e6;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-left: 45px;
+    text-align: left;
+    width: 240px;
+}
+
+.features_roundup .container .row:first-of-type .included_in {
+    margin-top: 50px;
+}
+
+.features_roundup .container .row .included_in span:first-of-type {
+    display: block;
+    background-color: #416376;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+}
+
+.features_roundup .container h4 {
+    display: block;
+    width: 1140px;
+    height: 31.5px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    /* padding-top: -20px; */
+    margin-bottom: 260px;
+    color: #000000;
+    text-align: center;
+}
+
+.features_roundup .container p {
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.threeContainer{
+    border-top-right-radius:none !important;
+    border-top-left-radius:none !important;
+}
